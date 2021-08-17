@@ -17,7 +17,6 @@ export const getTaskListApi = () => {
                 dispatch(hideLoading());
             }
         } catch (err) {
-            console.log(err.response.data);
             dispatch(hideLoading());
         }
     }
