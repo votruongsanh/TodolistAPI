@@ -1,23 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+
+import TodolistRCC from './Component/Todolist/TodolistRCC';
+import TodolistRedux from './Component/Todolist/TodolistRedux';
+import TodolistRFC from './Component/Todolist/TodolistRFC';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+     {/* <TodolistRCC /> */}
+     {/* <TodolistRFC /> */}
+     <TodolistRedux />
     </div>
   );
 }
